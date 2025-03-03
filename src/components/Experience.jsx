@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 const Experience = () => {
   return (
     
-    <div className="md:h-[120vh] p-4 lg:h-screen bg-zinc-900">
+    <div className="md:h-[120vh] p-4 lg:h-screen w-full bg-zinc-900">
       <h2 
       data-aos="zoom-in"
       className="text-white py-12 text-center text-3xl">Experience</h2>
@@ -25,7 +25,7 @@ const Experience = () => {
           className="mb-2 text-sm text-stone-400">2025 - Present</motion.p>
           <motion.h3 
           whileInView={{opacity:1, x:0}}
-          initial={{opacity:0, x:100}}
+          initial={{opacity:0, x: -100}}
           transition={{duration: 1.5}}
           
           className="text-lg font-bold text-white">
@@ -61,7 +61,7 @@ const Experience = () => {
           className="mb-2 text-sm text-stone-400">2021 - 2024</motion.p>
           <motion.h3 
           whileInView={{opacity:1, x:0}}
-          initial={{opacity:0, x: 100}}
+          initial={{opacity:0, x: -100}}
           transition={{duration: 1.5}}
           
           className="text-lg font-bold text-white">
@@ -96,7 +96,7 @@ const Experience = () => {
           className="mb-2 text-sm text-stone-400">2020 - 2021</motion.p>
           <motion.h3 
           whileInView={{opacity:1, x:0}}
-          initial={{opacity:0, x:100}}
+          initial={{opacity:0, x: -100}}
           transition={{duration: 1.5}}
           
           className="text-lg font-bold text-white">

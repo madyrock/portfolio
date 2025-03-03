@@ -27,10 +27,10 @@ const iconVariants = (duration) => ({
 const Technology = () => {
   return (
     
-    <div className="sm:h-screen sm:pt-[120px]  bg-zinc-900 ">
+    <div className="h-screen flex flex-col justify-center sm:pt-[5px] w-full bg-zinc-900 ">
       <h2
         data-aos="zoom-in"
-        className="text-white sm:py-[100px] md:pt-[250px] lg:pt-[200px]  text-center text-3xl"
+        className="text-white py-[100px] sm:pt-[80px] md:pt-[20px] lg:pt-[20px]  text-center text-3xl"
       >
         Technology
       </h2>
