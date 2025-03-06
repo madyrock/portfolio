@@ -38,7 +38,7 @@ const Home = () => {
         <div className="w-full lg:w-1/2">
           <div className="flex lg:w-[500px] justify-center sm:pt-[20px] md:pt-5  m-auto mt-4 mix-blend-lighten">
             <motion.img
-              className="logoimage w-[220px] sm:w-[350px]  md:w-[350px] xl:w-[400px] grayscale rounded-full"
+              className="logoimage mt-3 w-[260px] sm:w-[370px]  md:w-[480px] xl:w-[400px] grayscale rounded-full"
               src="./profileimg.png"
               alt="logoimage"
               initial={{ y: -100, opacity: 0 }}
