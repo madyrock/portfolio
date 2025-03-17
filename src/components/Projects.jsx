@@ -1,6 +1,7 @@
 import React from "react";
 
 function Projects() {
+  
   return (
     <>
       <div className="w-full flex justify-center  bg-zinc-900 items-center">
@@ -13,8 +14,11 @@ function Projects() {
             Projects
           </h2>
           <div className=" w-full flex flex-wrap justify-center items-center">
-            <div className="max-w-[500px] lg:max-w-sm bg-white m-4 flex justify-center items-center">
+            <div className="relative max-w-[500px] lg:max-w-sm bg-white m-4 flex justify-center items-center">
               <img src="./project1.png" alt="" />
+              <div className="absolute left-16 bottom-2">
+                <button className=" py-2 px-3 bg-lime-500 hover:bg-lime-600 text-white text-sm font-bold rounded-full"><a href="https://rb-shoes.vercel.app/">Explore me</a></button>
+              </div>
             </div>
             <div className="max-w-[500px] lg:max-w-sm  m-4 flex justify-center items-center">
               <div className="flex flex-col gap-3 justify-start items-start">

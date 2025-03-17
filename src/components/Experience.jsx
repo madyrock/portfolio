@@ -9,9 +9,9 @@ const Experience = () => {
     <div className="md:h-[120vh] p-4 lg:h-screen w-full bg-zinc-900">
       <h2 
       data-aos="zoom-in"
-      className="text-white py-12 text-center text-3xl">Experience</h2>
+      className="text-white pt-4 text-center text-3xl">Experience</h2>
       
-      <div className=" mb-8 flex flex-wrap lg:justify-center mt-[100px]">
+      <div className="  flex flex-wrap lg:justify-center mt-[50px]">
         <div className="w-full lg:w-1/4 p-6">
 
         <motion.div

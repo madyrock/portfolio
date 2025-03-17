@@ -31,7 +31,7 @@ const Contact = () => {
          initial={{ opacity: 0, x: -100 }}
          transition={{ duration: 1.5 }}
         className='flex gap-4 justify-center items-center mt-5'>
-          1
+          
         <Mail size={32} className='text-white'/>
         <a href="mailto:mudassirghazi1121@gmail.com" className="text-white text-xl sm:text-2xl">mudassirghazi1121@gmail.com</a>
         </motion.div>
