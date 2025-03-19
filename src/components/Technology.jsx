@@ -15,19 +15,29 @@ import { animate, motion } from "framer-motion";
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
-    y:[10, -10],
-  transition: {
-    duration: duration,
-    ease: "linear",
-    repeat: Infinity,
-    repeatType: "reverse",
-  }}
+    y: [10, -10],
+    transition: {
+      duration: duration,
+      ease: "linear",
+      repeat: Infinity,
+      repeatType: "reverse",
+      // make it responsive
+      media: {
+        "(min-width: 768px)": {
+          duration: duration * 1.2,
+        },
+        "(min-width: 1024px)": {
+          duration: duration * 1.5,
+        },
+      },
+    },
+  },
 });
 
 const Technology = () => {
   return (
     
-    <div className="h-screen flex flex-col justify-center sm:pt-[5px] w-full bg-zinc-900 ">
+    <div className="h-[100vh] flex flex-col  justify-center sm:pt-[5px] w-full bg-zinc-900 ">
       <h2
         data-aos="zoom-in"
         className="text-white py-[100px] sm:pt-[80px] md:pt-[20px] lg:pt-[20px]  text-center text-3xl"

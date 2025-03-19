@@ -10,15 +10,67 @@ const Navbar = () => {
     SetIsOpen(!isOpen);
   };
 
+  const navbarVariants = {
+    open: {
+      width: "250px",
+      height: "100vh",
+      padding: "2rem",
+      backgroundColor: "rgba(54, 78, 126, 0.95)",
+      boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
+      transition: {
+        duration: 0.5,
+      },
+    },
+    closed: {
+      width: "0",
+      height: "0",
+      padding: "0",
+      backgroundColor: "transparent",
+      boxShadow: "none",
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
+  const linksVariants = {
+    open: {
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+        staggerChildren: 0.2,
+      },
+    },
+    closed: {
+      opacity: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
+  const linkVariants = {
+    open: {
+      y: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+    closed: {
+      y: "-100%",
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
     <div className="w-full  flex justify-between items-center p-2 lg:p-4 xl:p-4 bg-zinc-900 relative">
       <motion.div
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
+        
         className="text-white font-bold mt-3 sm:m-2 lg:m-0"
       >
-        <a href="#home" className="font-extrabold text-4xl lg:text-5xl pl-[32px] sm:pl-10 mt-12 lg:pl-5 text-lime-500">
+        <a href="#home" className="font-extrabold text-4xl lg:text-4xl pl-[32px] sm:pl-10 mt-12 lg:pl-8 text-lime-500">
           M<span className="text-white">G</span>
         </a>
       </motion.div>
@@ -140,7 +192,7 @@ const Navbar = () => {
           transition={{ duration: 1.5 }}
         >
           <a href="https://www.instagram.com/__madyrock__/">
-            <FaInstagram className="text-5xl text-white hover:text-fuchsia-800 transition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
+            <FaInstagram className="text-4xl text-white hover:text-fuchsia-800 transition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
           </a>
         </motion.div>
         <motion.div
@@ -149,7 +201,7 @@ const Navbar = () => {
           transition={{ duration: 1.5 }}
         >
           <a href="https://github.com/madyrock/">
-            <FaGithub className="text-5xl text-white hover:text-yellow-500 transition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
+            <FaGithub className="text-4xl text-white hover:text-yellow-500 transition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
           </a>
         </motion.div>
         <motion.div
@@ -158,7 +210,7 @@ const Navbar = () => {
           transition={{ duration: 1.5 }}
         >
           <a href="https://wa.me/+918866672242">
-            <FaWhatsapp className="text-5xl text-white hover:text-lime-600 tranlsition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
+            <FaWhatsapp className="text-4xl text-white hover:text-lime-600 tranlsition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
           </a>
         </motion.div>
         <motion.div
@@ -167,7 +219,7 @@ const Navbar = () => {
           transition={{ duration: 1.5 }}
         >
           <a href="https://www.linkedin.com/in/mudassir-ghazi-0972a413a/">
-            <FaLinkedin className="text-5xl text-white hover:text-blue-500 transition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
+            <FaLinkedin className="text-4xl text-white hover:text-blue-500 transition-all ease-in-out cursor-pointer hover:scale-125 transform transition duration-300 ease-in-out" />
           </a>
         </motion.div>
       </div>
