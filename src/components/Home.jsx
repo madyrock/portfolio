@@ -43,7 +43,7 @@ const Home = () => {
           transition={{ duration: 1, delay: 1.5 }}
         />
       </div>
-      <div className="w-full lg:w-1/2 mt-8 flex flex-col items-center lg:items-center lg:order-1 pb-16">
+      <div className="w-full lg:w-1/2 mt-8 flex flex-col items-center lg:items-center lg:order-1 pb-[150px]">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -57,7 +57,7 @@ const Home = () => {
           >
             <motion.span
               variants={childVariants}
-              className="text-lime-500 text-4xl sm:text-[55px] md:text-6xl lg:text-6xl xl:text-7xl"
+              className="text-lime-500 text-4xl sm:text-[55px] md:text-6xl lg:text-6xl xl:text-7xl "
             >
               Mudassir <span className="text-white">Ghazi</span>
             </motion.span>
