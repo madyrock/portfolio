@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div className="w-full h-screen bg-zinc-900 flex flex-col lg:flex-row items-center justify-center lg:pb-20 ">
-      <div className="w-full lg:w-1/2 flex justify-center lg:order-2">
+      <div className="w-full lg:w-1/2 flex justify-center lg:order-2 pb-10">
         <motion.img
           className="w-[260px] sm:w-[370px] md:w-[350px] xl:w-[350px] grayscale rounded-full mt-3"
           src="./profileimg.png"
@@ -43,7 +43,7 @@ const Home = () => {
           transition={{ duration: 1, delay: 1.5 }}
         />
       </div>
-      <div className="w-full lg:w-1/2 mt-8 flex flex-col items-center lg:items-center lg:order-1">
+      <div className="w-full lg:w-1/2 mt-8 flex flex-col items-center lg:items-center lg:order-1 pb-16">
         <motion.div
           initial="hidden"
           animate="visible"
