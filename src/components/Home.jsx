@@ -53,7 +53,7 @@ const Home = () => {
           <motion.h1
             
             variants={childVariants}
-            className="text-white text-4xl lg:text-5xl font-bold text-center lg:text-left"
+            className="text-white text-4xl lg:text-5xl md:pt-20 font-bold text-center lg:text-left"
           >
             <motion.span
               variants={childVariants}

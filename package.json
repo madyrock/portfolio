@@ -1,6 +1,5 @@
 {
   "homepage": "https://mudassirghazi.github.io/portfolio/",
-
   "name": "prectice-app",
   "private": true,
   "version": "0.0.0",
@@ -12,11 +11,11 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "dependencies": {
     "aos": "^2.3.4",
     "framer-motion": "^11.15.0",
+    "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.474.0",
     "react": "^18.3.1",
     "react-aos": "^1.0.1",
@@ -24,6 +23,7 @@
     "react-burger-menu": "^3.1.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
+    "react-locomotive-scroll": "^0.2.2",
     "react-router-dom": "^7.1.1",
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.9.2"

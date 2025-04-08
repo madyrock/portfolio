@@ -5,9 +5,9 @@ import {motion} from 'framer-motion'
 
 const Experience = () => {
   return (
-    <div className="md:h-[120vh] p-4 lg:h-screen w-full bg-zinc-900">
+    <div className="h-screen w-full pt-[150px] bg-zinc-900">
       <h2 
-      data-aos="zoom-in"
+      // data-aos="zoom-in"
       className="text-white pt-4 text-center text-3xl">Experience</h2>
       
       <div className="flex flex-wrap lg:justify-center mt-[50px]">

@@ -10,7 +10,7 @@ const Contact = () => {
     
     <div className='w-full  h-screen bg-zinc-900'>
         <h2 
-        data-aos="zoom-in"
+        // data-aos="zoom-in"
         className='pt-[150px] flex justify-center items-center m-auto text-center text-4xl sm:text-5xl text-white'>
             Get in Touch
         </h2>
