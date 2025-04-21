@@ -19,7 +19,7 @@ function Projects() {
             <div className="max-w-[500px] lg:max-w-sm  m-4 flex justify-center items-center">
               <div className="flex flex-col gap-3 justify-start items-start">
                 <button className="  py-1 px-2 bg-lime-500 hover:bg-lime-600 text-white text-sm font-bold rounded-lg">
-                  <a href="https://interio-chi.vercel.app/">Explore</a>
+                  <a href="https://rb-shoes.vercel.app/">Explore</a>
                 </button>
                 <h1 className="text-white">
                   This E-Commerce Web Application is a full-featured online
